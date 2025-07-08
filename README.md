@@ -3,7 +3,7 @@
 
 ## Introduction:
 
-HThe Quantum Bookstore is a Java-based object-oriented programming (OOP) project designed to simulate an online book store. It manages an inventory of various book types, handles adding and removing books, and processes purchase transactions. The system is built with a strong emphasis on extensibility, allowing for the seamless integration of new book types without requiring significant modifications to existing code.
+The Quantum Bookstore is a Java-based object-oriented programming (OOP) project designed to simulate an online book store. It manages an inventory of various book types, handles adding and removing books, and processes purchase transactions. The system is built with a strong emphasis on extensibility, allowing for the seamless integration of new book types without requiring significant modifications to existing code.
 
 
 ## Screenshots for test case:
@@ -12,13 +12,13 @@ HThe Quantum Bookstore is a Java-based object-oriented programming (OOP) project
 ## `TestClass`
 
 Main Class <br>
-![TestClass](screenshots/1.png "testCases") <br>
-![TestClass](screenshots/2.png "testCases")
+![TestClass](Screenshots/1.png "testCases") <br>
+![TestClass](Screenshots/2.png "testCases")
 
 ## `Console Output`
 
 Console Output <br>
-![Console Output](screenshots/3.png "Console Output") <br>
+![Console Output](Screenshots/3.png "Console Output") <br>
 
 
   </div>
