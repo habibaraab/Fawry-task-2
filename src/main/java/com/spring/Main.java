@@ -74,7 +74,7 @@ public class Main {
         System.out.println("\n--- Testing Removing Outdated Books ");
         List<Book> removed = myBookstore.removeOutdatedBooks(3);
         for (Book book : removed) {
-            System.out.println("Quantum book store: Removed: " + book.getTitle()  + book.getPublishYear()  );
+            System.out.println("Removed: " + book.getTitle()  + book.getPublishYear()  );
         }
 
 
