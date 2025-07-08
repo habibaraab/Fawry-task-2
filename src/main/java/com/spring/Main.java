@@ -34,6 +34,8 @@ public class Main {
         myBookstore.addBook(outdatedPaperBook);
         myBookstore.addBook(outdatedEBook);
 
+        System.out.println("Successfully added books");
+
 
         System.out.println("\n--- Testing Buying Books ---");
 
