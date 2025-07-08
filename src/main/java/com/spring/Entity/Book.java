@@ -12,14 +12,15 @@ public abstract class Book {
 
     public Book(){}
     public Book(String ISBN, String title, int publishYear, double price, int quantity) {
-        if(this.publishYear<0) throw new IllegalArgumentException("Publish Year must be greater than 0");
-        if(this.quantity<0) throw new IllegalArgumentException("Quantity must be greater than 0");
-        if(this.price<0) throw new IllegalArgumentException("Price must be greater than 0");
+
         this.ISBN = ISBN;
         this.title = title;
         this.publishYear = publishYear;
         this.price = price;
         this.quantity = quantity;
+        if(publishYear<0) throw new IllegalArgumentException("Publish Year must be greater than 0");
+        if(quantity<0) throw new IllegalArgumentException("Quantity must be greater than 0");
+        if(price<0) throw new IllegalArgumentException("Price must be greater than 0");
     }
 
     public String getISBN() {
