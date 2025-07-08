@@ -60,6 +60,6 @@ public class bookStore {
                 }
             }
         }
-        throw new IllegalArgumentException("Book with ISBN '" + ISBN + "' not found in inventory.");
+        throw new IllegalArgumentException("Book with ISBN '" + ISBN + " not found in inventory.");
     }
 }
